@@ -10,5 +10,7 @@
   {name: "Cottage Cheese", level: "not very"}
 ];
 
-// your code here
+const getFoodsInfo = (object) => console.log(`${object.name} is ${object.level} delicious`)
+  
+foods.forEach(getFoodsInfo)
 
