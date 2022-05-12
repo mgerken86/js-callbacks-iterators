@@ -4,5 +4,5 @@ const mneumonics = ['My Very Excellent Mother Just Sent Me Nine Pizzas', 'Please
 // For example, the 0th element of the new array should be:
 // ['My', 'Very', 'Excellent', 'Mother', 'Just', 'Sent', 'Me', 'Nine', 'Pizzas']
 
-// Your code here!
+const answerArr = mneumonics.map(x => x.split(' '))
 
